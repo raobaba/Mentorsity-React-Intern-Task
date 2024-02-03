@@ -94,10 +94,15 @@ div {
     width: 100%;
   }
 
+  .button-group button a {
+    text-decoration: none;
+    color: white !important;
+  }
+
 .random-routes{
   margin-top: 80px;
 }
   .random-routes > div {
-    width: 100%; /* Adjust the width based on your design preferences */
+    width: 100%; 
   }
 }

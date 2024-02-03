@@ -1,0 +1,45 @@
+.exchange-rate {
+    margin-top: 160px;
+  }
+  
+  .exchange-container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction:space-between;
+    align-items: center;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (min-width: 768px) {
+    .exchange-container {
+      max-width: 800px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .exchange-container {
+      max-width: 1000px;
+    }
+  }
+  
+  /* Additional Styles for Select */
+  .currency-selector {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Additional Styles for Exchange Rates */
+  .exchange-rates-display {
+    margin-top: 20px;
+  }
+  
+  .currency-rate {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+  
