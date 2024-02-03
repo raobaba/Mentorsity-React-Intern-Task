@@ -1,7 +1,6 @@
-// Home.js
-
 import React from 'react';
 import '../styles/Home.css';
+import Routing from '../routes/Routing';
 
 function Home() {
   return (
@@ -20,7 +19,7 @@ function Home() {
         </div>
     </div>
     <div className='random-routes'>
-
+      <Routing/>
     </div>
     </>
   )
