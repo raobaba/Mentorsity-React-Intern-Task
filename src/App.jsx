@@ -1,8 +1,8 @@
-import ForexSymbols from "./components/FetchSymbol"
+import Home from "./components/Home"
 function App() {
  return (
     <>
-        <ForexSymbols/>
+        <Home/>
     </>
   )
 }
